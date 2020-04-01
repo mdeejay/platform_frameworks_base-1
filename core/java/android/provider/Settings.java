@@ -5985,6 +5985,12 @@ public final class Settings {
         public static final String INCALL_FEEDBACK_VIBRATE = "incall_feeedback_vibrate";
 
         /**
+         * Whether to show quick settings on secure LockScreen
+         * @hide
+         */
+        public static final String LOCKSCREEN_ENABLE_QS = "lockscreen_enable_qs";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
